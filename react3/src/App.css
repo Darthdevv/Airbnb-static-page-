@@ -1,0 +1,144 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.navbar{
+height: 70px;
+background: #FFFFFF;
+box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left:30px ;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image{
+margin-top: 20px;
+margin-bottom: 32px;
+}
+@media screen and (max-width: 800px) {
+  .image{
+    width: 395.91px;
+    height: 232px;
+  }
+}
+
+
+h1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+  margin-left: 36px;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 800px) {
+  h1{
+  font-size: 20px;
+  }
+}
+
+p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+  margin-left: 36px;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+@media screen and (max-width: 800px) {
+  .card{
+    width: 175px; 
+    font-size: 12px;
+    flex: 0 0 auto;
+  }
+}
+
+.img{
+  width: 176px;
+  height: 235px;
+  margin-left: 36px;
+  border-radius: 10px 10px 10px 10px;
+}
+.icon{
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+}
+
+.fix{
+  margin-left: 36px;
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.span{
+  padding-left: 36px;
+  font-family: 'Poppins';
+  font-style: normal;
+  margin-top: auto;
+}
+
+.bold{
+
+  color: #222222;
+  font-weight:600;
+}
+.grey{
+  color: #918E9B;
+}
+
+.num{
+  color: #222222;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x:auto;
+}
+
+.card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 43px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  width: 48px;
+  height: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight:400;
+  font-size: 10px;
+  text-align: center;
+  color: #000000;
+  line-height:10px ;
+}
